@@ -1,0 +1,22 @@
+.image-item__list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 10px;
+}
+
+.image-data {
+  margin-bottom: 5px;
+}
+
+button {
+  background-color: #00236e;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}

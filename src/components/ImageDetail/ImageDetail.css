@@ -1,0 +1,169 @@
+.back-link-container {
+  padding-top: 15px;
+}
+
+.back-link {
+  font-size: 1.5rem;
+  color: rgba(255, 255, 255, 0.87);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+}
+
+.back-link > img {
+  width: 25px;
+}
+
+/* @media screen and (max-width: 768px) {
+  .back-link > img {
+    width: 35px;
+  }
+} */
+
+.back-link__text {
+  margin: 0 0 0 10px;
+  border-bottom: 2px solid transparent;
+  transition: color 0.2s;
+}
+
+.back-link__text:hover {
+  border-bottom: 2px solid rgba(255, 255, 255, 0.87);
+}
+
+@media screen and (max-width: 768px) {
+  .back-link__text {
+    display: none;
+  }
+}
+
+.imageDetail-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 40px;
+}
+
+@media screen and (max-width: 768px) {
+  .imageDetail-container {
+    gap: 25px;
+  }
+}
+
+.imageDetail-name {
+  font-size: 3rem;
+  margin: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .imageDetail-name {
+    font-size: 2rem;
+  }
+}
+
+.imageDetail-image {
+  width: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .imageDetail-image {
+    width: 100%;
+  }
+}
+
+.imageDetail-title {
+  margin: 0;
+  font-size: 1rem;
+}
+
+@media screen and (max-width: 768px) {
+  .imageDetail-title {
+    font-size: 1.3rem;
+  }
+}
+
+.imageDetail-comment {
+  padding: 0;
+}
+
+.imageDetail-comments {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 70%;
+  align-content: space-around;
+}
+
+@media screen and (max-width: 768px) {
+  .imageDetail-comments {
+    width: 100%;
+  }
+}
+
+.imageDetail-addComments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.comments-wrapper {
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.input-text {
+  font-size: 1rem;
+  width: 100%;
+  height: 100px;
+  padding: 5px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+@media screen and (max-width: 768px) {
+  .input-text {
+    font-size: 1.2rem;
+    height: 200px;
+  }
+}
+
+.comment {
+  font-size: 1rem;
+  list-style: none;
+  border-bottom: 1px solid white;
+  padding: 20px 5px;
+  display: flex;
+  word-break: keep-all;
+  overflow-wrap: break-word;
+  text-align: left;
+}
+
+@media screen and (max-width: 768px) {
+  .comment {
+    font-size: 1.5rem;
+  }
+}
+
+.no-comments-message {
+  margin: 0;
+}
+
+.button-submit {
+  font-weight: bold;
+  font-size: 1rem;
+  margin-top: 20px;
+  padding: 20px;
+  width: 50%;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .button-submit {
+    margin-top: 30px;
+    padding: 20px;
+    width: 70%;
+  }
+}
