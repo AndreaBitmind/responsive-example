@@ -11,7 +11,7 @@ To run the application locally, follow these steps:
 1. Clone this repository to your local machine.
 2. Navigate to the project directory in your terminal.
    ```sh
-   cd responsive-challenge
+   cd responsive-example
    ```
 3. Install project dependencies
    ```sh
