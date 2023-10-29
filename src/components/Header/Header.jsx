@@ -7,7 +7,7 @@ const Header = () => {
         <img src="../../../images/rayos-x.png" alt="x-ray picture" />
       </div>
       <div className="title-wrapper">
-        <h1 className="title-header">Responsive challenge</h1>
+        <h1 className="title-header">Responsive Example</h1>
         <h2 className="subtitle-header">Image Handler</h2>
       </div>
     </div>

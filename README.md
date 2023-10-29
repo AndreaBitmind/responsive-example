@@ -1,4 +1,4 @@
-# Responsive Challenge - Image Handler
+# Responsive Example - Image Handler
 
 ## Description
 
